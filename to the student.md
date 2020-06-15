@@ -1,0 +1,20 @@
+# to the student
+
+Reading a calculus textbook is different from reading a newspaper or a novel, or even a physics book. Don't be discouraged(灰心丧气) if you have to read a passage(文章) more than once in order to understand it. You should have pencil and paper and calculator(计算器) at hand to sketch(画) a diagram(图解) or make a calculation(计算).
+
+Some students start by trying their homework problems and read the text only if they get stuck(卡住) on an exercise. I suggest(建议) that a far better plan is to read and understand a section of the text before attempting the exercise.In particular(特别的), you should look at the definitions(定义) to see the exact(精确的) meanings of the terms. And before you read each example, I suggest that you cover up(遮盖) the solution and try solving the problem yourself.You'll get a lot more form looking at the solution if you do so.
+
+Part of the aim(目标) of this course is to train(训练) you to think logically(逻辑). Learn to write the solutions of the exercises in a connected(关联的), step-by-step fashion explanatory(说明的，解释的) sentences(句子) -- not just a string of disconnected equations(等式) or formulas(公式).
+
+The answers to the odd-numbered exercises appear at the back of the book, in Appendix(附录) 1. Some exercises ask for a verbal(口头的) explanation(解释说明) or interpretation(解释说明) or description(描述). In such cases there is no single correct way of expressing(明确的) the answer, so don't worry that you haven't found the definitive(权威的) answer. In addition, there are often several different forms in which to express a numberical or algebraic(代数) answer, so if your answer differs from mine, don't immediately(直接，立即的) assume(假定) you're wrong. For example, if the answer given in the back of the book is $\sqrt{2} - 1$ and you obtain $1/(1 + \sqrt{2})$, then you're right and rationalizing(合理化) the denominator(分母)will show that the answers an equivalent(相等的).
+
+The icon :chart_with_upwards_trend: indicates(标明) an exercise that definitely requires the use of eigher a graphing calculator or a computer with graphing software. (Section 1.4 discusses the use of these graphing devices and some of the pitfalls(陷阱) that you may encounter(遇到).) But that doesn't mean that graphing devices can't be used to check your work on the other exercises as well.
+The symbol [cas] is reserved(保留) for problems in which the full resources of a computer algebar system (like Derive,Maple,Mathematica, or the TI-89/92) are required.
+
+You will also encounter the system :no_entry_sign: , which warns you against committing an error. I hava placed this symbol in the margin in situations where I have observed(观察) that a large proportion of my students tend to make the same mistake.
+
+Tools for Enriching Calculus, which is a companion(同伴) to this text, is referred to by means of the symbol [TEC] and can be accessed in Enhanced(增强) WebAssign and CourseMate (selected Visuals and Modules are available at www.stewartcalculus.com). It directs you to modules in which you can explore(探索) aspects(方面，面貌) of calculus for which the computer is particularly(特别的) userful.
+
+Homework Hints(提示) for representative(典型的) exercises are indicated(指出) by printing the exercise number in red:5. These hints can be found on stewartcalculus.com as well as enhanced WebAssign and CourseMate. The homework hints ask you questions that allow you make progress toward a solution without actually giving you the answer. You need to pursue(继续) each hint in an active manner with pencil and paper to work out the details. If a particular hint doesn't enable you to solve the problem, you can click to reveal(显示) the next hint.
+
+I recommend that you keep this book for reference(参考) purposes(打算) after you finish the course. Because you will likely forget some of the specific(特定的) details of calculus, the book will serve(提供) as a useful reminder when you need to use calculus in subsequent(随后) courses. And, because this book contains more material(材料) than can be covered in any one couse, it can also serve as a valuable resource for a working scientist or engineer.
