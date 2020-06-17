@@ -12,7 +12,7 @@ It is a much more difficult problem to find the area of a curved(曲线，弯曲
 
 ![Figure 2](./images/pic02.png)
 
-Let $A_{n}$ be the area of the inscribed polygon with $n$ sides. As $n$ increases. it appears that $A_{n}$ becomes closer and closer to the area of the circle. We say that the area of the circle is the *limit* of the areas of the incribed polygons,and we write $$A = \lim_{n \rightarrow \infin} A_{n}$$
+Let $A_{n}$ be the area of the inscribed polygon with $n$ sides. As $n$ increases. it appears that $A_{n}$ becomes closer and closer to the area of the circle. We say that the area of the circle is the *limit* of the areas of the incribed polygons,and we write $$A = \lim_{n \rightarrow \infty} A_{n}$$
 
 The Greeks themselves did not use limits explicitly(明确的). Howerver ,by indirect(间接的) reasoning, Eudoxus(fifth century BC) used exhaustion to prove the familiar formula for the area of a circle: $A = \pi r^{2}$
 
@@ -32,7 +32,7 @@ Consider the problem of trying to find an equation(等式) of the tangent line *
 
 ![Figure 6](./images/pic06.png)
 
-$$ m_{PQ} = \frac{f(x) - f(a)}{x-a} $$ Equation 1
+$$ m_{PQ} = \frac{f(x) - f(a)}{x-a} $$ **Equation 1**
 
 Now imagine that Q moves along the curve toward P as in Figure 7. You can see that the secant line rotates and approaches the tangent line as its limiting position. This means that the slope $m_{PQ}$ of the secant line becomes closer and closer to the slope m of the tangent line . We write
 
@@ -42,10 +42,26 @@ $$m = \lim_{Q \rightarrow P} m_{PQ}$$
 
 and we say that *m* is the limit of $m_{PQ}$ as Q approaches P along the curve. Since *x* approaches a as Q approaches P , we could also use Equation 1 to write
 
-$$ m = \lim_{x \rightarrow a} \frac{f(x) - f(a)}{x-a} $$ Equation 2
+$$ m = \lim_{x \rightarrow a} \frac{f(x) - f(a)}{x-a} $$ **Equation 2**
 
 Specific examples of this procedure(程序，步骤) will be given in Chapter 2.
 
 The tangent problem has given rise to the branch of calculus called *differential calculus*(微分), which was not invented(发明) until more than 2000 years after integral calculus. The main ideas behinid differential calculus are due the French mathematician Pierre Fermat(1601-1665) and were developed by the English mathematicians John Wallis(1616-1703), Isaac Barrow(1630-1677),and Isaac Newton(1642-1727) and the German mathematician Gottfried Leibniz(1646-1716).
 
 The two branches of calculus and their chief(主要的) problems,the area problem and the tangent problem, appear to be very differnt,but it turns out that there is a very close connection between them. The tangent problem and the area problem are inverse(相反) problems in a sense that will be described(描述，描写) in Chapter 5.
+
+## Velocity(速率)
+
+When we look at the speedometer(速度计) of a car and read that the car is traveling(移动的) at 48 km/h , whtat does that information indicate(标示) to us? We know that if the velocity remains constant(连续的，不变的), then after an hour we will have traveled 48 km. But if the velocity of the car varies(变化), what does it mean to say that the velocity at a given instant is 48 km/h?
+
+In order to analyze this question, let's examine the motion of a car that travels along a straight road and assume that we can measure the distance traveled by the car (in meters) at 1-second intervals as in the following chart:
+
+![following chart](./images/pic08.png)
+
+As a first step toward finding the velocity after 4 seconds have elapsed, we find the average velocity during the time interval $ 4 \leq t \leq 8 $ :
+
+$$ 
+    average velocity = \frac{change in position}{time elapsed} 
+                     = \frac{43 - 10}{8 - 4}
+                     = 8.25 m/s
+$$
