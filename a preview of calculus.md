@@ -54,14 +54,43 @@ The two branches of calculus and their chief(主要的) problems,the area proble
 
 When we look at the speedometer(速度计) of a car and read that the car is traveling(移动的) at 48 km/h , whtat does that information indicate(标示) to us? We know that if the velocity remains constant(连续的，不变的), then after an hour we will have traveled 48 km. But if the velocity of the car varies(变化), what does it mean to say that the velocity at a given instant is 48 km/h?
 
-In order to analyze this question, let's examine the motion of a car that travels along a straight road and assume that we can measure the distance traveled by the car (in meters) at 1-second intervals as in the following chart:
+In order to analyze this question, let's examine the motion of a car that travels along a straight road and assume(假定) that we can measure(测量，估算) the distance traveled by the car (in meters) at 1-second intervals as in the following chart:
 
-![following chart](./images/pic08.png)
+![following chart  ft/s](./images/pic08.png)
 
-As a first step toward finding the velocity after 4 seconds have elapsed, we find the average velocity during the time interval $ 4 \leq t \leq 8 $ :
+As a first step toward finding the velocity after 4 seconds have elapsed(逝去), we find the average velocity during the time interval $ 4 \leq t \leq 8 $ :
 
-$$ 
-    average velocity = \frac{change in position}{time elapsed} 
-                     = \frac{43 - 10}{8 - 4}
-                     = 8.25 m/s
-$$
+$$ average \quad velocity = \frac{change \quad in \quad position}{time \quad elapsed} = \frac{43 - 10}{8 - 4} = 8.25 m/s $$
+
+Similarly, the average velocity in the time interval $4 \leq t \leq 6$ is
+
+$$ average \quad velocity =  \frac{25 - 10}{6 - 4} = 7.5 m/s $$
+
+We have the feeling that the velocity at the instant $t = 4$ can't be much different from the average velocity during a short time interval starting at $t = 4$ .So let's imagine that the distance traveled has been measured at 0.2-second time intervals as in the following chart:
+
+![following chart ft/s](./images/pic09.png)
+
+Then we can compute, for instance, the average velocity over the time interval [4,5]:
+
+$$ average \quad velocity = \frac{16.80 - 10.00}{5 - 4} = 6.8 m/s $$
+
+The results of such calculations are shown in the following chart:
+
+![following chart ft/s](./images/pic10.png)
+
+The average velocities over successively smaller intervals appear to be getting closer to a number near 5, and so we expect that the velocity at exactly *t = 4* is about 5 m/s .In
+Chapter 2 we will define the instantaneous velocity of a moving object as the limiting value of the average velocities over smaller and smaller time intervals.
+
+In Figure 8 we show a graphical representation of the motion of the car by plotting the distance traveled as a function of time. If we write $d = f(t)$ ,then $f(t)$ is the number of meters traveled after t seconds. The average velocity in the time interval $[ 4, t]$ is
+
+$$ average \quad velocity = \frac{change \quad in \quad position}{time \quad elapsed} = \frac{f(t) - f(4)}{t - 4} $$
+
+which is the same as the slope of the secant line PQ in Figure 8. The velocity v when $ t = 4$, is the limiting value of this averae velocity as t approaches 4; that is,
+
+![Figure 8](./images/pic11.png)
+
+$$ v = \lim_{t \rightarrow 4} \frac{f(t) - f(4)}{t - 4}$$
+
+and we recognize from Equation 2 that this is the same as the slope of the tangent line to the curve at P.
+
+Thus ,when we solve the tangent problem in differential calculus, we are also solving problems concerning velocities. The same techniques also enable us to solve problems involving rates of change in all of the natural and social sciences.
