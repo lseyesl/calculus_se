@@ -94,3 +94,57 @@ $$ v = \lim_{t \rightarrow 4} \frac{f(t) - f(4)}{t - 4}$$
 and we recognize from Equation 2 that this is the same as the slope of the tangent line to the curve at P.
 
 Thus ,when we solve the tangent problem in differential calculus, we are also solving problems concerning velocities. The same techniques also enable us to solve problems involving rates of change in all of the natural and social sciences.
+
+## The Limit of a Sequence(序列，顺序)
+
+In the fifth century bc the Greek philosopher(哲学家) Zeno of Elea posed(主张，形成) four problems, now known as *Zeno's paradoxed(悖论)*, that were intended(打算，准备) to challenge(挑战) some of the ideas concerning(关于) space and time that were held in his day. Zeno's second paradox concerns(涉及，关系) a race between the Greek hero Achilles(阿基里斯) and a tortoise(迟缓的人，乌龟) that has been given a head start. Zeno argued(争论), as follows , that Achilles could never pass the tortoise:Suppose that Achilles starts at position $a_{1}$ and the tortoise starts at position $t_{1}$. (See Figure 9.) When Achilles reaches the point $a_{2}=t_{1}$ ,the tortoise is farther ahead at position $t_{2}$ .When Achilles reaches $a_{3} = t_{2}$ ,the tortoise is at $t_{3}$ .This process continues indefinitely(无限期) and so it appears that the tortoise will always be ahead! But this defies(挑战，对抗) common sense.
+
+![Figure 9](./images/pic12.png)
+
+One way of explaining this paradox is with the idea of a *sequence*. The successive(连续的) positions of Achilles ($a_{1},a_{2},a_{3},...$) or the successive positions of the tortoise ($t_{1},t_{2},t_{3},...$) form what is known as a sequence.
+
+In general, a sequence $a_{n}$ is a set of numbers written in a definite order. For instance, the sequence
+
+$$ {1,\frac{1}{2},\frac{1}{3},\frac{1}{4},\frac{1}{5},...} $$
+
+can be described by giving the following formula for the *nth* term:
+
+$$ a_{n} = \frac{1}{n}$$
+
+We can visualize this sequence by plotting(绘图) its terms on a number line as In Figure 10(a) or by drawing its graph as in Figure 10(b). Observe from eigher picture that the terms of the sequence $a_{n} = \frac{1}{n}$ are becoming closer and closer to 0 as *n* increases. In fact, we can find terms as small as we please by making *n* large enough. We say that the limit of the sequence is 0, and we indicate(指出) this by writing
+
+![Figure 10](./images/pic12.png)
+
+$$ \lim_{n \rightarrow \infty} \frac{1}{n} = 0$$
+
+In general, the notation
+
+$$ \lim_{n \rightarrow \infty} a_{n} = L$$
+
+is used if the terms $a_{n}$ approach the number $L$ as *n* becomes large. This means that the numbers $a_{n}$ can be make as close as we like to the number $L$ by taking *n* sufficiently(足够的) large.
+
+The concept of the limit of a sequence occurs(重现) whenever we use the decimal representation of a real number. For instance, if
+
+$$ a_{1} = 3.1 $$
+$$ a_{2} = 3.14 $$
+$$ a_{3} = 3.141 $$
+$$ a_{4} = 3.1415 $$
+$$ a_{5} = 3.14159 $$
+$$ a_{6} = 3.141592 $$
+$$ a_{7} = 3.1415926 $$
+$$.$$
+$$.$$
+$$.$$
+
+then
+
+$$ \lim_{n \rightarrow \infty} a_{n} = \pi $$
+
+The terms in this sequence are rational(合理的) approximations to $\pi$.
+
+Let's return to Zeno's paradox. The successive positions of Achilles and the tortoise form sequences $a_{n}$ and $t_{n}$ , where $a_{n} \lt t_{n}$ for all *n*.
+It can be shown that both sequences have the same limit:
+
+$$\lim_{n \rightarrow \infty} a_{n} = p = \lim_{ n \rightarrow \infty} t_{n}$$
+
+It is precisely(精确的) at this point *p* that Achilles overtakes(赶上) the tortoise.
