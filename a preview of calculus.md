@@ -148,3 +148,47 @@ It can be shown that both sequences have the same limit:
 $$\lim_{n \rightarrow \infty} a_{n} = p = \lim_{ n \rightarrow \infty} t_{n}$$
 
 It is precisely(精确的) at this point *p* that Achilles overtakes(赶上) the tortoise.
+
+## The Sum of a Series
+
+Another of Zeno's paradoxes, as passed on to us by Aristotle, is the following: "A man standing in a room canot walk to the wall . In order to do so, he would first have to go half the distance, then half the remaining distance, then half the remaining distance , and then again half of what still remains. This process can always be continued and can never be ended."(see figure 11.)
+
+![Figure 11](./images/pic14.png)
+
+Of course, we know that the man can actually reach the wall, so this suggests that perhaps the total distance can be expressed as the sum of infinitely many smaller distances as follows:
+
+$$  1= \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + ... + \frac{1}{2^n} + ...$$
+
+Equation 3
+
+Zeno was arguing that it doesn't make sense  to add infinitely many numbers together. But there are other situations in which we implicitly use infinite sums. For instance, in decimal notation, the symbol $ 0.\overline{3} = 0.333333... means$
+
+$$ \frac{3}{10} + \frac{3}{100} +
+\frac{3}{1000} +\frac{3}{10000} +
+\frac{3}{100000} + ...$$
+
+and so, in some sense, it must be true that 
+
+$$\frac{3}{10} + \frac{3}{100} +
+\frac{3}{1000} +\frac{3}{10000} +
+\frac{3}{100000} + ... = \frac{1}{3}$$
+
+More generally, if $d_{n}$ denotes the $nth$ digit in the decimal representation of a number, then 
+
+$$ 0.d_{1}d_{2}d_{3}d_{4}... = \frac{d_{1}}{10} + \frac{d_{2}}{10^2} +\frac{d_{3}}{10^3} + ... + \frac{d_{4}}{10^4} + ...$$
+
+Therefore some infinite sums, or infinite series as they are called, have a meaning . But ew must define carefully what the sum of an infinite series is.
+
+Returning to the series in Equation 3, we denote by $s_{n}$ the sum of the first n terms jof the series. Thus 
+
+![series](./images/pic15.png)
+
+Observe that as we add more and more terms, the partial sums become closer and closer to 1. In fact , it can be shown that by taking n large enough (that is,by adding sufficiently many terms of the series), we can make the partial sum $s_{n}$ as close as we please to the number 1. It therefore seems reasonable to say that the sum of the infinite series is 1 and to write
+
+$$ \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + ... + \frac{1}{2^n} + ... = 1$$
+
+In other words , the reason the sum of the series is 1 is that
+
+$$ \lim_{n \rightarrow \infty} s_n = 1$$
+
+In Chapter 11 we will discuss these ideas further. we will then use Newton's idea of combining infinite series with differential and jintegral calculus.
