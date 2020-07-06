@@ -28,4 +28,65 @@ it's helpful to think of a function as a machine (see Figure 2). if x is in the 
 
 ![Figure 2](./images/pic18.png)
 
-the preprogrammed(预程序) functions in a calculator are good examples of a function as a machine. for example, the square root key on your calculator computes such a function. You press the key labeled $\sqrt{\space}$ (or $\sqrt{x}$) and enter the input x. if $x<0$ , then x is not in the domain of this function;that is ,x is not an acceptable input ,and the calculator will indicate(标明，指示) an error. if $x \geq 0$,then a approximation to $\sqrt{x}$ will appear in the display.thus the $\sqrt{x}$ key on your calculator is not quite the same as the exact(精确的) mathematical function f defined by $f(x) = \sqrt{x}$. 
+the preprogrammed(预程序) functions in a calculator are good examples of a function as a machine. for example, the square root key on your calculator computes such a function. You press the key labeled $\sqrt{\space}$ (or $\sqrt{x}$) and enter the input x. if $x<0$ , then x is not in the domain of this function;that is ,x is not an acceptable input ,and the calculator will indicate(标明，指示) an error. if $x \geq 0$,then a approximation to $\sqrt{x}$ will appear in the display.thus the $\sqrt{x}$ key on your calculator is not quite the same as the exact(精确的) mathematical function f defined by $f(x) = \sqrt{x}$.
+
+another way to picture a function is by an arrow diagram(图表，图解) as in Figure 3. each arrow connects an element of D to an element of E. the arrow indicates(指示，指出) that $f(x)$ is associated(关联) with x, $f(a)$ is associated with a, and so on.
+
+![Figure 3](./images/pic19.png)
+
+the most common method for visualizing a function is its graph. if $f$ is a function with domain D, then its graph is the set of ordered pairs
+
+$$\{(x,f(x))|x\in D \}$$
+
+(Notice that these are input-output pairs.) In other words, the graph of f consists(组成，构成) of all points (x,y) in the coordinate(同等，并列，坐标) plane such that $y = f(x)$ and x is in the domain of f.
+
+the graph of a function f gives us a usefull picture of the behavior or "life history" of a function . since the y-coordinate of any point (x,y) on the graph is $y = f(x)$ ,we can read the value of $f(x)$ from the graph as being the height of the graph above the point x (see Figure 4). the graph of $f$ also allows us to picture the domain of f on the x-axis and its range on the y-axis as in Figure 5.
+
+![Figure 4](./images/pic20.png)
+
+![Figure 5](./images/pic21.png)
+
+*example 1* the graph of a function $f$ is shown in Figure 6.
+(a) Find the values of $f(1)$ and $f(5)$.
+(b) what are the domain and range of $f$?
+
+![Figure 6](./images/pic22.png)
+
+*solution*
+(a) we see from Figure 6 that the point (1,3) lies on the graph of $f$, so the value of $f$ at 1 is $f(1)=3$. (In other words, the point on the graph that lies above x $x = 1$ is 3 units above the x-axis.)
+when $x = 5$ ,the graph llies about 0.7 unit below the x-axis, so ew estimate that $f(5) \approx -0.7$.
+(b) we see that $f(x)$ is defined when $0 \geq x \geq 7$, so the domain of $f$ is the closed interval $[0,7]$. Notice that $f$ takes on all values from -2 to 4, so the range of $f$ is 
+
+$$\{ y| -1 \geq y \geq 4\} = [-2,4]$$
+
+*example 2* sketch the graph and find the domain and range of each function.
+(a) $f(x) = 2x -1$
+(b) $g(x) = x^2$
+
+*solution*
+(a) the equation of the graph is $y = 2x -1$, and we recognize this as being the equation of a line with slope 2 and y-intercept -1.(recall the slope-intercept form of the equation of a line: $y = mx + b$. See Appendix B.) thsi enables us to sketch a portion of the graph of $f$ in Figure 7. The expression $2x -1$ is defined for all real numbers, so the domain of $f$ is the set of all real numbers,which we denote by $R$. the graph shows that the range is also $R$.
+(b) since $g(2)=2^2 = 4$ and $g(-1) = (-1)^2 = 1$, we could plot the points (2,4) and (-1,1), together with a few other points on the graph, and join them ot produce the graph(Figure 8). the equation of the graph is $y = x^2$ ,which represents a parabola(see Appendix C). the domain of $g$ is $R$. the range of $g$ consists of all values of $g(x)$, that is , all numbers of the form $x^2$. But $x^2 \geq 0$ for all numbers $x$ and any positive number $y$ is a square. so the range of $g$ is $\{y|y \geq 0\} = [0,\infin)$ this can also be seen from Figure 8.
+
+![Figure 7](./images/pic23.png)
+
+![Figure 8](./images/pic24.png)
+
+*example 3* if $f(x) = 2x^2 - 5x +1$ and $h \neq 0$ ,evaluate $\frac{f(a+h)-f(a)}{h}$.
+
+*solution* we first evaluate $f(a+h)$ by replacing $x$ by $a+h$ in the expression for $f(x)$:
+
+$$
+\begin{aligned}
+f(a+h) &= 2(a+h)^2 - 5(a+h)+1 \\
+&= 2(a^2 + 2ah +h^2) - 5(a+h) +1 \\
+&= 2a^2 + 4ah + 2h^2 - 5a - 5h +1
+\end{aligned}$$
+
+then we substitute into the given expression and simplify:
+
+$$
+\begin{aligned}
+\frac{f(a+h)-f(a)}{h} &= \frac{(2a^2 + 4ah +2h^2 - 5a -5h +1) -(2a^2 -5a + 1)}{h} \\
+&= \frac{2a^2 + 4ah + 2h^2 - 5a -5h +1 -2a^2 + 5a -1}{h} \\
+&= \frac{4ah +2h^2 - 5h}{h} = 4a +2h - 5
+\end{aligned}$$
